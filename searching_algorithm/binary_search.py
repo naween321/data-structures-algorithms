@@ -16,7 +16,7 @@ def binary_search(list1, key):
         print("Key not found")
 
 
-list1 = [23, 1, 4, 2, 3]
+list1 = [23, 1, 4, 2, 3, 5]
 list1.sort()
 key = int(input("Enter search value: "))
 binary_search(list1, key)
