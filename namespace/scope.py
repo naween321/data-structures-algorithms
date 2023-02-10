@@ -1,6 +1,5 @@
 x = 4
 
-
 def add():
     y = 3
     x = 5
@@ -10,3 +9,5 @@ def add():
 
 print(x)
 print(add())
+globals()['y'] = 100
+print(globals())
