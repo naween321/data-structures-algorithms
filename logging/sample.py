@@ -1,5 +1,5 @@
 import logging
-logging.basicConfig(level=logging.DEBUG, filename='test.log')
+logging.basicConfig(level=logging.DEBUG, filename='test.log', format='%(asctime)s:%(levelname)s:%(message)s')
 
 
 def add(n1, n2):
