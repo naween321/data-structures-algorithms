@@ -1,4 +1,5 @@
 import logging
+import employee
 logging.basicConfig(level=logging.DEBUG, filename='test.log', format='%(asctime)s:%(levelname)s:%(message)s')
 
 
@@ -10,4 +11,4 @@ num1 = 10
 num2 = 5
 
 add_result = add(num1, num2)
-logging.warning(f"{num1} + {num2} = {add_result}")
+logging.debug(f"{num1} + {num2} = {add_result}")
