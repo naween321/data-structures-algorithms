@@ -1,4 +1,5 @@
 import logging
+logging.basicConfig(level=logging.DEBUG, filename='test.log')
 
 
 def add(n1, n2):
