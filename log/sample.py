@@ -1,4 +1,5 @@
 import logging
+import employee
 logging.basicConfig(level=logging.INFO, filename='test.log', format='%(asctime)s:%(levelname)s:%(message)s')
 
 

@@ -11,7 +11,6 @@ print(x)
 x = 10
 print(add())
 globals()['y'] = 100
-print(globals())
 
 
 """ LEGB Local Enclosing Global Built-in scopes """
@@ -20,8 +19,7 @@ a = [1, 2, 3]
 def test():
     a = [4, 5, 7]
     a.append(8)
-    print(a)
 
 test()
 print(a)
-    
+
