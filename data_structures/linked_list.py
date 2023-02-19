@@ -15,6 +15,6 @@ second = Node(2)
 third = Node(3)
 l.head.next = second
 second.next = third
-while l.head != None:
+while l.head is not None:
     print(l.head.value, end=" ")
     l.head = l.head.next
