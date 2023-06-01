@@ -14,6 +14,7 @@ def solution(s):
             result[i] = 1
     return result
 
+
 print(solution(data))
 
 
