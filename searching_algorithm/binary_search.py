@@ -1,4 +1,4 @@
-def binary_search(list1, key):
+def binary_search(list1, key):  # binary search example
     low = 0
     high = len(list1) - 1
     found = False
