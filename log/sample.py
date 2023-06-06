@@ -1,5 +1,5 @@
 import logging
-import employee
+# import employee
 logging.basicConfig(level=logging.INFO, filename='test.log', format='%(asctime)s:%(levelname)s:%(message)s')
 
 
@@ -7,7 +7,7 @@ def add(n1, n2):
     try:
         return n1 + n2
     except TypeError:
-        logging.exception("Type Difference")
+        logging.info("Type Difference")
 
 
 num1 = 10
