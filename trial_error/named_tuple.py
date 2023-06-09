@@ -1,3 +1,7 @@
+# Walrus Operator
+# positional only and keyword only
+# Named Tuple
+
 from collections import namedtuple
 
 point = namedtuple("Point", "x y")
