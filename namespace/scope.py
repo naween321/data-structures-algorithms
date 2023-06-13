@@ -6,7 +6,6 @@ def add():
     summ = x + y
     return summ
 
-
 print(x)
 x = 10
 print(add())
