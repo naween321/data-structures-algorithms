@@ -188,3 +188,4 @@ venv/
 .env
 env/
 .idea
+data
