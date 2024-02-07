@@ -14,3 +14,5 @@ print(results)
 session.query(Person).filter(Person.id == 1).update(dict(name="Rohan"))
 session.commit()
 print("Update Successful !!")
+
+
