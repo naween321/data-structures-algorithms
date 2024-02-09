@@ -17,7 +17,6 @@ def one():
     print(two())
     return "fdds"
 
-
 def two():
     return "dfsd"
 
