@@ -10,3 +10,9 @@ data = {"name": "Nabin", "language": "Python"}
 
 r = message.substitute(data)
 print(r)
+
+
+a = [1, 2, 3]
+b = ["Sun", "Mon", "Tues"]
+for x, y in zip(a, b):
+    print(x, y)
